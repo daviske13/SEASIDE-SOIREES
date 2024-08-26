@@ -1,0 +1,18 @@
+body { /*this centers the P, h1 and h2 because it is the paret. you have to allow the parent to center in order to center the children*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+main {
+    border-width: 5px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #9C90C3;
+    background-color: white;
+    padding: 10px;
+    width: 600px; /* Adjust width as needed */
+    max-width: 600px; /* Set a maximum width for the form container */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
